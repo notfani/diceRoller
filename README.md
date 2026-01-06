@@ -19,16 +19,13 @@ git clone https://github.com/yourusername/diceRoller.git
 
 # Navigate to the project directory
 cd diceRoller
-
-# Install dependencies (if applicable)
-npm install
 ```
 
 ## Usage
 
 ```bash
 # Run the application
-npm start
+py3 dice_roller.py
 ```
 
 ### Example Dice Notation
@@ -37,19 +34,6 @@ npm start
 - `2d6` - Roll two 6-sided dice
 - `3d8+5` - Roll three 8-sided dice and add 5
 - `1d100` - Roll one 100-sided die (percentile)
-
-## Project Structure
-
-```
-diceRoller/
-├── src/
-│   ├── components/
-│   ├── utils/
-│   └── index.js
-├── tests/
-├── README.md
-└── package.json
-```
 
 ## Contributing
 
@@ -64,14 +48,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by tabletop RPG gaming communities
-- Built for gamers, by gamers
-
-## Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/diceRoller](https://github.com/yourusername/diceRoller)
